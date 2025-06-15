@@ -3,14 +3,9 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import PartnerForm from './components/PartnerForm';
 import {
-  HeartIcon,
-  MapPinIcon,
-  ShieldCheckIcon,
-  ChatBubbleLeftRightIcon,
-  UserGroupIcon,
-  SparklesIcon,
   BuildingOfficeIcon,
   ChartBarIcon,
+  UserGroupIcon,
 } from '@heroicons/react/24/outline';
 
 const fadeIn = {
@@ -181,6 +176,12 @@ function App() {
                 muted
                 playsInline
               ></video>
+              <a 
+                href="https://youtu.be/xvFZjo5PgG0?si=9IDn4PWK0zz17tY_"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 z-10 cursor-pointer"
+              ></a>
             </div>
           </div>
         </div>
@@ -307,7 +308,7 @@ function App() {
           </p>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
             <a 
-              href="#"
+              href="/#"
               target="_blank"
               rel="noopener noreferrer"
               className="btn bg-white text-primary text-lg px-8 py-4 rounded-xl shadow-soft hover:shadow-lg transition-all duration-300"
@@ -335,18 +336,18 @@ function App() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                <li><a href="/#" className="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                <li><a href="/#" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
+                <li><a href="/#" className="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
+                <li><a href="/#" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
               </ul>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-4">Legal</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
+                <li><a href="/#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                <li><a href="/#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+                <li><a href="/#" className="text-gray-400 hover:text-white transition-colors">Cookie Policy</a></li>
               </ul>
             </div>
             <div>
