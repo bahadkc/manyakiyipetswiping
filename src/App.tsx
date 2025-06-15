@@ -181,7 +181,10 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute inset-0 z-10 cursor-pointer"
-              ></a>
+                aria-label="Watch video on YouTube"
+              >
+                <span className="sr-only">Watch video on YouTube</span>
+              </a>
             </div>
           </div>
         </div>
